@@ -1,0 +1,78 @@
+#cont {
+    color: black;
+   
+    
+    text-align: center;
+    background-color: rgb(138, 181, 227);
+}
+
+
+#head1 {
+    color: black;
+    font-size: 20px;
+    background-color: orange;
+    text-align: center;
+
+}
+#cont:hover {
+    color: rgb(138, 181, 227);
+background-color: rgba(21, 20, 20, 0.689);
+
+}
+
+#foot {
+    background-color: rgb(60, 55, 55);
+}
+#foot:hover{
+   background-color:  #8b728f;
+}
+
+#alts{
+    color: yellow;
+}
+
+#butn:hover {
+    color: green;
+    font-weight: bold;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+#alert{
+    
+    color: black;
+    font-size: 40px;
+    
+    font-family: "Lucida Console", "Courier New", Fantasy;
+    font-weight: bold;
+}
+
+#alert:hover{
+    
+    color: #73054a;
+    font-size: 40px;
+    
+    font-family: "Lucida Console", "Courier New", Fantasy;
+    font-weight: bold;
+}
+
+#butn1 {
+    border: 2px solid green;
+    
+    color: rgb(255, 68, 0) ;
+    padding-left: 20%;
+    padding-top: 1%;
+    padding-right: 20%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+    background-color: #bbd9a0;
+    font-family:  'Snell Roundhand','cursive';
+}
+
+#butn1:hover {
+color: black;
+    background-color: rgb(136, 136, 226);
+
+}
