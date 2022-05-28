@@ -1,9 +1,9 @@
 #cont {
-    color: black;
+    color: white;
    
+    margin-left: 10%;
+    text-align: left;
     
-    text-align: center;
-    background-color: rgb(138, 181, 227);
 }
 
 
@@ -14,17 +14,18 @@
     text-align: center;
 
 }
-#cont:hover {
-    color: rgb(138, 181, 227);
-background-color: rgba(21, 20, 20, 0.689);
 
+#btn{
+    align-items: flex-end;
 }
-
 #foot {
     background-color: rgb(60, 55, 55);
 }
-#foot:hover{
-   background-color:  #8b728f;
+
+#title{
+    color: black;
+    padding: 10px,10px,5px,5px;
+    text-align: center;
 }
 
 #alts{
@@ -42,21 +43,21 @@ background-color: rgba(21, 20, 20, 0.689);
 
 #alert{
     
-    color: black;
-    font-size: 40px;
+    color:rgb(255, 0, 179);
+    font-size: 20px;
     
-    font-family: "Lucida Console", "Courier New", Fantasy;
+    font-weight: bold;
+}
+#alert:hover {
+    
+    color: #c8ff00;
+    font-size: 50px;
+    background-color: rgb(255, 0, 204);
+    
     font-weight: bold;
 }
 
-#alert:hover{
-    
-    color: #73054a;
-    font-size: 40px;
-    
-    font-family: "Lucida Console", "Courier New", Fantasy;
-    font-weight: bold;
-}
+
 
 #butn1 {
     border: 2px solid green;
@@ -68,7 +69,7 @@ background-color: rgba(21, 20, 20, 0.689);
     padding-bottom: 1%;
     border-radius: 20px;
     background-color: #bbd9a0;
-    font-family:  'Snell Roundhand','cursive';
+   
 }
 
 #butn1:hover {
@@ -76,3 +77,36 @@ color: black;
     background-color: rgb(136, 136, 226);
 
 }
+#alerttest{
+
+    background-color: #2e034f;
+   
+    font-weight: bold;
+    color: pink;
+    border: 3px solid yellow;
+    margin-bottom: auto;
+   
+}
+
+#alerttest1{
+
+    background-color: rgb(37, 80, 115);
+    font-size: 30px;
+   
+    font-weight: bold;
+    color: #c8ff00;
+    border: 3px solid yellow;
+    padding-bottom: 2px;
+   
+}
+
+#alert1:hover {
+    
+    color:#ff00ae
+    
+   
+    
+
+}
+
+
